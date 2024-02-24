@@ -14,6 +14,9 @@ use App\Http\Controllers\AppController;
 |
 */
 
-Route::get('/', [AppController::class, 'index']);
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/send', [AppController::class, 'index']);
 Route::get('/check', [AppController::class, 'check']);
 Route::get('/stand', [AppController::class, 'stand']);

@@ -15,7 +15,7 @@
 <body>
     <header>
         <!-- Hero section with background image, heading, subheading and button -->
-        <div class="relative h-screen overflow-hidden">
+        <div class="relative text-center overflow-hidden">
             <div id="carouselExampleControls"
                 class="relative w-full sm:h-96 md:h-screen overflow-hidden after:clear-both after:block after:content-['']"
                 data-te-carousel-init data-te-ride="carousel">
@@ -40,13 +40,13 @@
                 <div class="flex h-full items-center justify-end px-20">
                     <div class="w-96">
                         <h2 class="mb-4 text-4xl font-semibold text-white">
-                            Découvrez les points de vente autour de vous
+                            Commencez votre transfert en ligne des maintenant
                         </h2>
                         <form action="" method="post">
                             @csrf
                             <div class="p-4" style="background-color: rgba(12, 49, 71, 0.5)">
                                 <div class="text-left mb-4">
-                                    <label class="text-white" for="">Sélectionner une région</label>
+                                    <label class="text-white" for="">Envoyer vers</label>
                                     <select class="text-white block mt-1 w-full bg-neutral-50 p-3"
                                         style="background-color: rgb(12, 49, 71)" name="" id="">
                                         @foreach ($pays as $continent => $paysContinent)
@@ -58,19 +58,24 @@
                                         @endforeach
                                     </select>
                                 </div>
-
+                                <div class="text-left mb-4">
+                                    <label class="text-white" for="">Montant à envoyer</label>
+                                    <input class="text-white block mt-1 w-full bg-neutral-50 p-3"
+                                        style="background-color: rgb(12, 49, 71)" type="number" name=""
+                                        id="">
+                                </div>
                             </div>
                             <button type="button"
                                 class="block mt-1 w-full p-3 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
                                 style="background-color: rgb(247, 148, 29)" data-te-ripple-init
                                 data-te-ripple-color="light">
-                                Rechercher
+                                Envoyer de l'argent
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>

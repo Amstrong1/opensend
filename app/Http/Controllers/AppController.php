@@ -47,7 +47,7 @@ class AppController extends Controller
 
         ];
 
-        return view('welcome', ['pays' => $pays]);
+        return view('send', ['pays' => $pays]);
     }
 
     public function check()

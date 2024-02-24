@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/send', [AppController::class, 'index']);
 Route::get('/check', [AppController::class, 'check']);
 Route::get('/stand', [AppController::class, 'stand']);
+Route::get('/contact', [AppController::class, 'contact']);
+Route::get('/login', [AppController::class, 'login']);
+Route::get('/register', [AppController::class, 'register']);

@@ -67,7 +67,7 @@
                 </li>
                 <li class="my-1 text-sm" data-te-nav-item-ref>
                     <a class="flex items-center transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 md:p-2 [&.active]:border-primary [&.active]:text-primary"
-                        href="/check" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
+                        href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -91,7 +91,7 @@
                 </li>
                 <li class="my-1 text-sm" data-te-nav-item-ref>
                     <a class="flex items-center transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 md:p-2 [&.active]:border-primary [&.active]:text-primary"
-                        href="/stand" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
+                        href="/contact" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -112,7 +112,7 @@
                     </a>
                 </li>
                 <li class="my-1 text-sm" data-te-nav-item-ref>
-                    <a href="#!"
+                    <a href="/login"
                         class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 md:p-2 [&.active]:border-primary [&.active]:text-primary rounded border border-neutral-700 p-1 leading-normal transition duration-150 ease-in-outhover:bg-opacity-10"
                         data-te-ripple-init data-te-ripple-color="light">
                         Se connecter

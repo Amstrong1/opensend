@@ -97,4 +97,19 @@ class AppController extends Controller
         ];
         return view('stand', ['pays' => $pays]);
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function register()
+    {
+        return view('register');
+    }
 }

@@ -32,7 +32,7 @@
 
     <!--Copyright section-->
     <div class="bg-black p-4 text-center text-white">
-        © 2023 Copyright:
-        <a class="text-white" href="https://tw-elements.com/">Open Send</a>
+        © 2024 Copyright |
+        <a class="text-white" href="https://tw-elements.com/">OpenSend</a>
     </div>
 </footer>

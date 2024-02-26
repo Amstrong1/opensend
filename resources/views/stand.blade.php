@@ -20,9 +20,9 @@
 
             <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden" style="background-color: rgba(0, 0, 0, 0.4)"> 
                 <div class="fixed top-0 right-0 left-0 z-[1030]">
-                    @include('navigation')
+                    @include('partials.navigation')
                 </div>
-                <div class="flex h-full items-center justify-end px-20">
+                <div class="flex h-full items-end justify-end px-20 pb-10">
                     <div class="w-96">
                         <h2 class="mb-4 text-4xl font-semibold text-white">
                             Découvrez les points de vente autour de vous

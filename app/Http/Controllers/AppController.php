@@ -112,4 +112,9 @@ class AppController extends Controller
     {
         return view('register');
     }
+
+    public function faq()
+    {
+        return view('faq');
+    }
 }

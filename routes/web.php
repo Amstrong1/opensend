@@ -23,3 +23,4 @@ Route::get('/stand', [AppController::class, 'stand']);
 Route::get('/contact', [AppController::class, 'contact']);
 Route::get('/login', [AppController::class, 'login']);
 Route::get('/register', [AppController::class, 'register']);
+Route::get('/faq', [AppController::class, 'faq']);

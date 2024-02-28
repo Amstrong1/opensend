@@ -102,11 +102,10 @@
                             </span>
                         </div>
                     </div>
-
+                    <div class="g-recaptcha" data-sitekey="6LfCLYMpAAAAAB-ssPt6ydeA8LIMy6UVg1A6zJme"></div>
                     <div class="flex items-center justify-between">
                         <button type="submit" style="background: rgb(247, 148, 29);"
-                            class="g-recaptcha w-full rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
-                            data-sitekey="6Lc9K4MpAAAAAAoIj2LgJAnIGY2ZetiTRC6YzTyM" data-callback='onSubmit' data-action='submit'>
+                            class="w-full rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
                             Envoyer
                         </button>
                     </div>

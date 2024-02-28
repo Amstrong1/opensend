@@ -18,7 +18,8 @@
         <div class="relative text-center overflow-hidden">
             @include('partials.carousel')
 
-            <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden" style="background-color: rgba(0, 0, 0, 0.4)">
+            <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden"
+                style="background-color: rgba(0, 0, 0, 0.4)">
                 <div class="fixed top-0 right-0 left-0 z-[1030]">
                     @include('partials.navigation')
                 </div>
@@ -30,12 +31,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex">
-            <span class="p-2 w-56 text-white" style="background: rgb(247, 148, 29);">AVIS D'INFORMATION</span>
-            <marquee class="p-2 border-b font-semibold" style="border-color: rgb(247, 148, 29);" behavior="" direction="">
-                Souhaitez vous devenir partenaire de OpenSend, aucun problème vous pouvez nous contacter.
-            </marquee>
         </div>
     </header>
 

@@ -79,7 +79,7 @@
                 </li> --}}
                 <li class="my-1 text-sm" data-te-nav-item-ref>
                     <a class="flex items-center transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 md:p-2 [&.active]:border-primary [&.active]:text-primary "
-                        href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
+                        href="/faq" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -112,8 +112,8 @@
                     </a>
                 </li>
                 <li class="my-1 text-sm" data-te-nav-item-ref>
-                    <a href="/login"
-                        class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 md:p-2 [&.active]:border-primary [&.active]:text-primary rounded border border-neutral-700 p-1 leading-normal transition duration-150 ease-in-outhover:bg-opacity-10"
+                    <a href="/login" style="background: rgb(247, 148, 29)"
+                        class="block transition duration-150 ease-in-out md:p-2 rounded text-white p-1 leading-normal transition duration-150 ease-in-outhover:bg-opacity-10"
                         data-te-ripple-init data-te-ripple-color="light">
                         Se connecter
                     </a>
@@ -122,3 +122,20 @@
         </div>
     </div>
 </nav>
+
+@php
+    $url = url()->current();
+    $lastSlashPos = strrpos(url()->current(), "/");
+    $page = substr(url()->current(), $lastSlashPos + 1);
+    $hidden = ['login', 'register', 'contact', 'faq'];
+@endphp
+
+@if (!in_array($page, $hidden))
+    <div class="flex bg-white">
+        <span class="p-2 w-56 text-white" style="background: rgb(247, 148, 29);">AVIS D'INFORMATION</span>
+        <marquee class="p-2 font-semibold" style="border-color: rgb(247, 148, 29);" behavior=""
+            direction="">
+            Souhaitez vous devenir partenaire de OpenSend, aucun problème vous pouvez nous contacter.
+        </marquee>
+    </div>
+@endif

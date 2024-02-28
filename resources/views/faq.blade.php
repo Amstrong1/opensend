@@ -19,7 +19,7 @@
         </div>
     </header>
 
-    <main class="m-12 mt-32 md:m-32">
+    <main class="m-12 mt-64">
         <div class="mx-auto max-w-lg text-center">
             <h1 class="text-2xl font-bold sm:text-3xl m-4">FAQs</h1>
         </div>
@@ -27,7 +27,7 @@
             <div class="rounded-t-lg border border-neutral-200 bg-white">
                 <h2 class="mb-0" id="headingOne">
                     <button
-                        class="group relative flex w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+                        class="group relative flex w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-black [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
                         type="button" data-te-collapse-init data-te-target="#collapseOne" aria-expanded="true"
                         aria-controls="collapseOne">
                         Qu'est ce que OpenSend
@@ -57,7 +57,7 @@
             <div class="border border-t-0 border-neutral-200 bg-white">
                 <h2 class="mb-0" id="headingTwo">
                     <button
-                        class="group relative flex w-full items-center rounded-none border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+                        class="group relative flex w-full items-center rounded-none border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-black [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
                         type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
                         aria-expanded="false" aria-controls="collapseTwo">
                         Comment puis je avoir un compte OpenSend
@@ -87,7 +87,7 @@
             <div class="rounded-b-lg border border-t-0 border-neutral-200 bg-white">
                 <h2 class="accordion-header mb-0" id="headingThree">
                     <button
-                        class="group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+                        class="group relative flex w-full items-center border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-black [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
                         type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseThree"
                         aria-expanded="false" aria-controls="collapseThree">
                         Peut on etre partenaire de OpenSend ?

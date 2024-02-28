@@ -48,13 +48,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="flex">
-            <span class="p-2 w-56 text-white" style="background: rgb(247, 148, 29);">AVIS D'INFORMATION</span>
-            <marquee class="p-2 border-b font-semibold" style="border-color: rgb(247, 148, 29);" behavior="" direction="">
-                Souhaitez vous devenir partenaire de OpenSend, aucun problème vous pouvez nous contacter.
-            </marquee>
-        </div>
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>

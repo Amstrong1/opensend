@@ -100,7 +100,7 @@
                     </div>
 
                     <div class="flex items-center justify-between">
-                        <button type="submit"
+                        <button type="submit" style="background: rgb(247, 148, 29);"
                             class="w-full rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
                             Envoyer
                         </button>

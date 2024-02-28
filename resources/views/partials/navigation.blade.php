@@ -125,17 +125,33 @@
 
 @php
     $url = url()->current();
-    $lastSlashPos = strrpos(url()->current(), "/");
+    $lastSlashPos = strrpos(url()->current(), '/');
     $page = substr(url()->current(), $lastSlashPos + 1);
     $hidden = ['login', 'register', 'contact', 'faq'];
 @endphp
 
 @if (!in_array($page, $hidden))
-    <div class="flex bg-white">
+    <div id="avis" class="flex bg-white">
         <span class="p-2 w-56 text-white" style="background: rgb(247, 148, 29);">AVIS D'INFORMATION</span>
-        <marquee class="p-2 font-semibold" style="border-color: rgb(247, 148, 29);" behavior=""
-            direction="">
+        <marquee class="p-2 font-semibold" style="border-color: rgb(247, 148, 29);" behavior="" direction="">
             Souhaitez vous devenir partenaire de OpenSend, aucun problème vous pouvez nous contacter.
         </marquee>
     </div>
 @endif
+
+<script>
+    // Sélectionner l'élément que nous voulons masquer
+    const elementToHide = document.getElementById('avis');
+    const elementToControll = document.getElementById('carouselExampleControls');
+
+    // Fonction appelée quand on déplace la page
+    window.addEventListener("scroll", function() {
+        // Si l'élément se trouve hors de la fenêtre visible (au dessus ou en bas), alors il sera masqué
+        if (elementToControll.getBoundingClientRect().top < 0) {
+            elementToHide.classList.add('hidden');
+        }
+        if (elementToControll.getBoundingClientRect().top == 0) {
+            elementToHide.classList.remove('hidden');
+        }
+    });
+</script>

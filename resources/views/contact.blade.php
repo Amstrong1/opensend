@@ -25,12 +25,13 @@
                     <h1 class="text-2xl font-bold sm:text-3xl">Laisser un message</h1>
                 </div>
 
-                <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
+                <form id="demo-form" method="POST" action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
                     <div>
                         <label for="name" class="sr-only">Nom</label>
 
                         <div class="relative">
-                            <input type="text" class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                            <input type="text"
+                                class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                 placeholder="Nom" />
 
                             <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -47,7 +48,8 @@
                         <label for="email" class="sr-only">Email</label>
 
                         <div class="relative">
-                            <input type="email" class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                            <input type="email"
+                                class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                 placeholder="Email" />
 
                             <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -66,7 +68,8 @@
                         <label for="object" class="sr-only">Objet</label>
 
                         <div class="relative">
-                            <input type="text" class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                            <input type="text"
+                                class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                 placeholder="Objet" />
 
                             <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -85,7 +88,8 @@
                         <label for="msg" class="sr-only">Message</label>
 
                         <div class="relative">
-                            <textarea placeholder="Message" class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm" name="" id="" cols="30" rows="10"></textarea>
+                            <textarea placeholder="Message" class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                name="" id="" cols="30" rows="10"></textarea>
 
                             <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="size-4 text-gray-400" fill="none"
@@ -101,7 +105,8 @@
 
                     <div class="flex items-center justify-between">
                         <button type="submit" style="background: rgb(247, 148, 29);"
-                            class="w-full rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+                            class="g-recaptcha w-full rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+                            data-sitekey="6Lc9K4MpAAAAAAoIj2LgJAnIGY2ZetiTRC6YzTyM" data-callback='onSubmit' data-action='submit'>
                             Envoyer
                         </button>
                     </div>
@@ -116,6 +121,12 @@
         </section>
     </main>
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </body>
 

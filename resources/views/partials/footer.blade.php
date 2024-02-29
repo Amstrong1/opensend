@@ -22,7 +22,8 @@
 
                 <div class="mb-6 md:mr-auto">
                     <button type="button"
-                        class="inline-block rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]" style="background: rgb(247, 148, 29);" data-te-ripple-init data-te-ripple-color="light">
+                        class="inline-block rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+                        style="background: rgb(247, 148, 29);" data-te-ripple-init data-te-ripple-color="light">
                         Envoyer
                     </button>
                 </div>
@@ -31,8 +32,11 @@
     </div>
 
     <!--Copyright section-->
-    <div class="bg-black p-4 text-center text-white">
-        © 2024 Copyright |
-        <a class="text-white" href="https://tw-elements.com/">OpenSend</a>
+    <div class="bg-black p-4 text-center text-white flex items-center justify-between">
+        <div><a href="#">Politique de confidentialité</a></div>
+        <div>© 2024 Copyright |
+            <a class="text-white" href="/">OpenSend</a>
+        </div>
+        <div><a href="#">RGPD</a></div>
     </div>
 </footer>

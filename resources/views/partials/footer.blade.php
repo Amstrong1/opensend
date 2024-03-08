@@ -35,7 +35,7 @@
     <div class="bg-black p-4 text-center text-white flex items-center justify-between">
         <div><a href="#">Politique de confidentialité</a></div>
         <div>© 2024 Copyright |
-            <a class="text-white" href="/">OpenSend</a>
+            <a class="text-white" href="/">WorldSend</a>
         </div>
         <div><a href="#">RGPD</a></div>
     </div>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>OpenSend</title>
+    <title>WorldSend</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
     <script src="https://cdn.tailwindcss.com/3.3.0"></script>
@@ -42,7 +42,7 @@
             <div class="w-full md:w-1/2 items-center">
                 <div class="text-md md:text-3xl font-bold">Opérations</div>
                 <div class="text-xl md:text-4xl font-bold md:mt-2">Rapide, flexible, Fiable</div>
-                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">OpenSend vous permet de bénéficier d'un
+                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">WorldSend vous permet de bénéficier d'un
                     mouvement rapide et d'une transition réflétant ses
                     objectifs</div>
             </div>
@@ -55,7 +55,7 @@
             <div class="w-full md:w-1/2 items-center">
                 <div class="text-md md:text-3xl font-bold">Transfert</div>
                 <div class="text-xl md:text-4xl font-bold md:mt-2">Moins Coûteux</div>
-                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">OpenSend détient des moyens de transferts
+                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">WorldSend détient des moyens de transferts
                     d'argent internationaux synonymes de rapidité, de flexibilité. Il est également à des frais très
                     abordables et contribuent à une action humanitaire plus transparente.</div>
             </div>
@@ -68,7 +68,7 @@
             <div class="w-full md:w-1/2 items-center">
                 <div class="text-md md:text-3xl font-bold">Un Large</div>
                 <div class="text-xl md:text-4xl font-bold md:mt-2">Rayonnement</div>
-                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">OpenSend génère un élan innovant qui
+                <div class="text-base md:text-xl mt-2 md:mt-8 font-semibold">WorldSend génère un élan innovant qui
                     rayonne sur le plan international.</div>
             </div>
         </div>

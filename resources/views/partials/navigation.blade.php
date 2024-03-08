@@ -134,7 +134,7 @@
     <div id="avis" class="flex bg-white">
         <span class="p-2 w-56 text-white" style="background: rgb(247, 148, 29);">AVIS D'INFORMATION</span>
         <marquee class="p-2 font-semibold" style="border-color: rgb(247, 148, 29);" behavior="" direction="">
-            Souhaitez vous devenir partenaire de OpenSend, aucun problème vous pouvez nous contacter.
+            Souhaitez vous devenir partenaire de WorldSend, aucun problème vous pouvez nous contacter.
         </marquee>
     </div>
 @endif
